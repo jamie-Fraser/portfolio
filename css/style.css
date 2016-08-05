@@ -1,4 +1,4 @@
-/* body, header and footer will stay the same through out the pages */
+/* body, header, below-head and footer will stay the same through out the pages */
 /* all the colours ive used at what theyre for */
 /* body background-color: #1a1a1a;
    button and boxes background-color: #262626;
@@ -95,13 +95,20 @@ ul li:last-child {}
   color: #f2f2f2;
 }
 
+.copyright {
+	width: 500px;
+	border: 5px solid black;
+}
+
 .below-head {
   padding-top: 180px;
 	width: 1200px;
 	margin: auto;
 }
 
-/* so just to here */
+/* so just to here */ /* so just to here */ /* so just to here */
+/* so just to here */ /* so just to here */ /* so just to here */
+/* so just to here */ /* so just to here */ /* so just to here */
 
 .jamie {
   margin: auto;
@@ -148,83 +155,10 @@ img {
   transition: 0.3s;
 }
 
-.contact {
-  font-size: 25px;
-  margin: auto;
-  width: 70%;
-  text-align: center;
-  padding: 20px 0;
-}
-
-.email {
-  color: #0d0d0d;
-  padding: 5px 20px 15px 20px;
-	width: 350px;
-	background-color: #262626;
-	margin-bottom: 20px;
-	border-radius: 3px;
-}
-h2 {
-	color: #666666;
-}
-
-h3 {
-	color: #666666;
-	font-size: initial;
-}
-	
-.message {
-  background-color: #f2f2f2;
-  border: 2px solid #666666;
-  width: 300px;
-  height: 100px;
-	border-radius: 3px;
-}
-
-.padmes {
-  padding: 5px 0;
-}
-
-.name {
-  background-color: #f2f2f2;
-  border: 2px solid #666666;
-  width: 300px;
-	border-radius: 3px;
-}
-
-.padname {
-  padding: 5px 0;
-}
-
-.youremail {
-  background-color: #f2f2f2;
-  border: 2px solid #666666;
-  width: 300px;
-	border-radius: 3px;
-}
-
-.pademail {
-  padding: 5px 0;
-}
-
-.submit {
-  background-color: #262626;
-  border: 2px solid #666666;
-  border-radius: 5px;
-  color: #666666;
-  width: 300px;
-}
-
-.padsub {
-  padding: 5px 0;
-}
-
 .social {
-  display: inline-block;
-  padding: 20px 0;
-  position: relative;
-  text-align: center;
-  width: 100%;
+  padding: 5px 0;
+	width: 500px;
+	border: 5px solid black;
 }
 
 .button {
@@ -234,7 +168,7 @@ h3 {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;		
+  font-size: 16px;
   border-radius: 8px;
   color: #0d0d0d;
   margin: 0 10px;
@@ -362,3 +296,79 @@ h3 {
 }
 
 @media (max-width: 700px) {}
+
+/* end of portfolio start of contact */
+/* end of portfolio start of contact */
+/* end of portfolio start of contact */
+/* end of portfolio start of contact */
+
+.contact {
+  font-size: 25px;
+  margin: auto;
+  width: 70%;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.email {
+  color: #0d0d0d;
+  padding: 5px 20px 15px 20px;
+	width: 350px;
+	background-color: #262626;
+	margin-bottom: 20px;
+	border-radius: 3px;
+}
+h2 {
+	color: #666666;
+}
+
+h3 {
+	color: #666666;
+	font-size: initial;
+}
+	
+.message {
+  background-color: #f2f2f2;
+  border: 2px solid #666666;
+  width: 300px;
+  height: 100px;
+	border-radius: 3px;
+}
+
+.padmes {
+  padding: 5px 0;
+}
+
+.name {
+  background-color: #f2f2f2;
+  border: 2px solid #666666;
+  width: 300px;
+	border-radius: 3px;
+}
+
+.padname {
+  padding: 5px 0;
+}
+
+.youremail {
+  background-color: #f2f2f2;
+  border: 2px solid #666666;
+  width: 300px;
+	border-radius: 3px;
+}
+
+.pademail {
+  padding: 5px 0;
+}
+
+.submit {
+  background-color: #262626;
+  border: 2px solid #666666;
+  border-radius: 5px;
+  color: #666666;
+  width: 300px;
+}
+
+.padsub {
+  padding: 5px 0;
+}
