@@ -6,10 +6,10 @@ $( document ).ready(function() {
 		$(".belowHead").load('portfolio.html .portfolio');
 	});
 	
-	$("a[href='contact.html']").on('click', function() {
-		$(".belowHead").load('contact.html .contact');
+	$("a[href='contact.html']").on('click', function(event) {
+		$('.home').remove();
 		event.preventDefault();
-	
+		$(".belowHead").load('contact.html .contact');
 	});
 	$("a[href='index.html']").on('click', function(event) {
 		$('.home').remove();
