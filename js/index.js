@@ -11,6 +11,7 @@ $(document).ready(function() {
 		event.preventDefault();
 		$(".belowHead").load('contact.html .contact');
 	});
+	
 	$("a[href='index.html']").on('click', function(event) {
 		$('.home').remove();
 		event.preventDefault();
