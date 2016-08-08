@@ -1,14 +1,22 @@
 $( document ).ready(function() {
 	
-	var trigger = $('.fixed-header ul li a'),
-	conatainer = $('.belowHead');
+  $("a[href='portfolio.html']").on('click', function(event) {
+		$('.home').remove();
+		event.preventDefault();
+		$(".belowHead").load('portfolio.html .portfolio');
+	});
 	
+	$("a[href='contact.html']").on('click', function(event) {
+		$('.home').remove();
+		event.preventDefault();
+		$(".belowHead").load('contact.html .contact');
+	});
 
-	trigger.on('click', function() {
-		var $this = $this.data('target');
-		container.load(target + '.html')
-		return false;
-	}
+	$("a[href='index.html']").on('click', function(event) {
+		$('.home').remove();
+		event.preventDefault();
+		$(".belowHead").load('index.html .home');
+	});
 
 		$('a.gallery').featherlightGallery({
     previousIcon: '&#9664',
@@ -18,4 +26,3 @@ $( document ).ready(function() {
     openSpeed: 300
 	});
 })
-
