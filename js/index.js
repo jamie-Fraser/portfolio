@@ -8,8 +8,9 @@ $( document ).ready(function() {
 	
 	$("a[href='contact.html']").on('click', function(event) {
 		$('.home').remove();
-		event.preventDefault();
 		$(".belowHead").load('contact.html .contact');
+		event.preventDefault();
+	
 	});
 	$("a[href='index.html']").on('click', function(event) {
 		$('.home').remove();
