@@ -1,11 +1,14 @@
 $( document ).ready(function() {
 	
-  $("a[href='.html']").on('click', function(event) {
-		$('.home').remove();
-		event.preventDefault();
-		$(".belowHead").load('portfolio.html .portfolio');
-	});
+	var trigger = $('.fixed-header ul li a'),
+	conatainer = $('.belowHead');
 	
+
+	trigger.on('click', function() {
+		var $this = $this.data('target');
+		container.load(target + '.html')
+		return false;
+	}
 
 		$('a.gallery').featherlightGallery({
     previousIcon: '&#9664',
@@ -15,3 +18,4 @@ $( document ).ready(function() {
     openSpeed: 300
 	});
 })
+
