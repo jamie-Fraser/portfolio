@@ -1,17 +1,8 @@
 $( document ).ready(function() {
-	
-  $("a[href='portfolio.html']").on('click', function(event) {
-		$('.home').remove();
-		event.preventDefault();
-		$(".belowHead").load('portfolio.html .portfolio');
-	});
+	$(".belowHead").load("index.html");
 	
 
-	$("a[href='index.html']").on('click', function(event) {
-		$('.home').remove();
-		event.preventDefault();
-		$(".belowHead").load('index.html .home');
-	});
+
 
 		$('a.gallery').featherlightGallery({
     previousIcon: '&#9664',
@@ -22,10 +13,10 @@ $( document ).ready(function() {
 	});
 })
 
-	$("a[href='contact.html']").click(function() {
-		$(".belowHead").load('contact.html .contact');
+	
+	$("a[href='index.html'], a[href='portfolio.html'], a[href='contact.html']").click(function() {
+		var page = $(this).attr('href');
+		$(".belowHead").load(page);
 		
 		return false;
-	
 	});
-	
