@@ -6,13 +6,7 @@ $( document ).ready(function() {
 		$(".belowHead").load('portfolio.html .portfolio');
 	});
 	
-	$("a[href='contact.html']").click(function() {
-		$(".belowHead").load('contact.html .contact');
-		
-		return false;
-	
-	});
-	
+
 	$("a[href='index.html']").on('click', function(event) {
 		$('.home').remove();
 		event.preventDefault();
@@ -27,3 +21,11 @@ $( document ).ready(function() {
     openSpeed: 300
 	});
 })
+
+	$("a[href='contact.html']").click(function() {
+		$(".belowHead").load('contact.html .contact');
+		
+		return false;
+	
+	});
+	
