@@ -1,4 +1,4 @@
-$( document ).ready(function() {
+$(document).ready(function() {
 	$(".belowHead").load("index.html");
 	
 
@@ -14,8 +14,8 @@ $( document ).ready(function() {
 })
 
 	
-	$("a[href='index.html'], a[href='portfolio.html'], a[href='contact.html']").click(function() {
-		var page = $(this).attr('href');
+	$("a[href$='.html']").click(function() {
+		var page = $(this).attr("href");
 		$(".belowHead").load(page);
 		
 		return false;
