@@ -1,20 +1,20 @@
 $( document ).ready(function() {
 	
-  $('a[href="portfolio.html"]').on('click', function(event) {
+  $("a[href='portfolio.html']").on('click', function(event) {
 		$('.home').remove();
 		event.preventDefault();
-		$(".below-head").load("portfolio.html .portfolio");
+		$(".below-head").load('portfolio.html .portfolio');
 	});
 	
-	$('a[href="contact.html"]').on('click', function(event) {
+	$("a[href='contact.html']").on('click', function(event) {
 		$('.home').remove();
 		event.preventDefault();
-		$(".below-head").load("contact.html .contact");
+		$(".below-head").load('contact.html .contact');
 	});
-	$('a[href="index.html"]').on('click', function(event) {
+	$("a[href='index.html']").on('click', function(event) {
 		$('.home').remove();
 		event.preventDefault();
-		$(".below-head").load("index.html .home");
+		$(".below-head").load('index.html .home');
 	});
 
 		$('a.gallery').featherlightGallery({
