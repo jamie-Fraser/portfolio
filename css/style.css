@@ -128,7 +128,7 @@ ul li:last-child {}
 
 .home {
   padding-top: 180px;
-	width: 1200px;
+	width: 900px;
 	margin: auto;
 }
 
@@ -140,9 +140,10 @@ ul li:last-child {}
 
 .contact {
   padding-top: 180px;
-	width: 1200px;
+	width: 800px;
 	margin: auto;
 }
+
 
 /* so just to here */ /* so just to here */ /* so just to here */
 /* so just to here */ /* so just to here */ /* so just to here */
@@ -161,16 +162,18 @@ ul li:last-child {}
 	border-radius: 1000px;
 	width: 300px;
 	height: auto;
+	background-color: transparent;
+	padding: 20px;
 }
 
 .intro {
   border-top-style: solid;
   border-bottom-style: solid;
   margin: auto;
-  padding: 50px 0;
+  padding-top: 20px;
   font-size: 10px;
   text-align: center;
-  width: 80%;
+  width: 90%;
 }
 
 .welcome {
@@ -244,29 +247,43 @@ data-featherlight-gallery {
 	border: none;
 }
 
+.inline { display: none }
+.featherlight .legend {
+    position: absolute;
+    bottom: 0;
+    font-size: larger;
+    color: black;
+}
+
+/*contact contact contact*/
+
 .email {
   color: #0d0d0d;
   padding: 5px 20px 15px 20px;
-	width: 350px;
+	width: 500px;
+	height: 800px;
 	background-color: #262626;
 	margin-bottom: 20px;
-	border-radius: 3px;
+	border-radius: 10px;
 }
 h2 {
 	color: #666666;
+	font-size: 40px;
 }
 
 h3 {
 	color: #666666;
 	font-size: initial;
+	font-size: 20px;
 }
 	
 .message {
   background-color: #f2f2f2;
   border: 2px solid #666666;
-  width: 300px;
-  height: 100px;
-	border-radius: 3px;
+  width: 450px;
+	height: 450px;
+	border-radius: 5px;
+	font-size: 20px;
 }
 
 .padmes {
@@ -276,8 +293,10 @@ h3 {
 .name {
   background-color: #f2f2f2;
   border: 2px solid #666666;
-  width: 300px;
-	border-radius: 3px;
+  width: 450px;
+	height: 50px;
+	border-radius: 5px;
+	font-size: 20px;
 }
 
 .padname {
@@ -287,8 +306,10 @@ h3 {
 .youremail {
   background-color: #f2f2f2;
   border: 2px solid #666666;
-  width: 300px;
-	border-radius: 3px;
+  width: 450px;
+	height: 50px;
+	border-radius: 5px;
+	font-size: 20px;
 }
 
 .pademail {
@@ -300,7 +321,7 @@ h3 {
   border: 2px solid #666666;
   border-radius: 5px;
   color: #666666;
-  width: 300px;
+  width: 450px;
 }
 
 .padsub {
