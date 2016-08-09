@@ -34,9 +34,9 @@ $(document).ready(function() {
 		}
 	});
 		$(".foo").backstretch([
-		"rick.png",
-		"tayah.png",
-		"tyrion.png"    
+		"/home/jamie/web/portfolio/Portfolio Images/Digital/Portraits/rick.png",
+		"/home/jamie/web/portfolio/Portfolio Images/Digital/Portraits/tayah.png",
+		"/home/jamie/web/portfolio/Portfolio Images/Digital/Portraits/tyrion.png"    
 		], {duration: 4000, fade: 750});
 })
 
