@@ -15,7 +15,7 @@ $(document).ready(function() {
 	$("a[href='index.html']").on('click', function(event) {
 		$('.home').remove();
 		event.preventDefault();
-		$(".belowHead").load('index.html');
+		$(".belowHead").load('index.html .home');
 	});
 
 		$('a.gallery').featherlightGallery({
@@ -33,10 +33,10 @@ $(document).ready(function() {
 		this.$legend.text(this.$currentTarget.attr('alt'));
 		
 		$(".foo").backstretch([
-			"home/jamie/web/portfolio/Portfolio Images/Digital/Portraits/rick.jpg",
-			"home/jamie/web/portfolio/Portfolio Images/Digital/Portraits/tayah.jpg",
-			"home/jamie/web/portfolio/Portfolio Images/Digital/Portraits/tyrion.jpg"    
-			], {duration: 4000});
+			"/home/jamie/web/portfolio/Portfolio Images/Digital/Portraits/rick.jpg",
+			"/home/jamie/web/portfolio/Portfolio Images/Digital/Portraits/tayah.jpg",
+			"/home/jamie/web/portfolio/Portfolio Images/Digital/Portraits/tyrion.jpg"    
+			], {duration: 4000, fade: 750});
     }
 	});
 })
