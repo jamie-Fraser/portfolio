@@ -33,5 +33,10 @@ $(document).ready(function() {
 		this.$legend.text(this.$currentTarget.attr('alt'));
 		}
 	});
+		$(".foo").backstretch([
+		"rick.png",
+		"tayah.png",
+		"tyrion.png"    
+		], {duration: 4000, fade: 750});
 })
 
