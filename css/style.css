@@ -17,6 +17,7 @@ body {
   max-width: 100%;
   margin: 0 auto;
   font-family: 'Rubik', sans-serif;
+	min-height: 800px;
 }
 
 .fixed-header {
@@ -141,12 +142,11 @@ ul li:last-child {}
 .portfolio {
   padding-top: 80px;
 	width:100%;
-	height: 1200px;
 	margin: auto;
 }
 
 .contact {
-  padding-top: 180px;
+  padding-top: 120px;
 	width: 800px;
 	margin: auto;
 }
@@ -178,11 +178,12 @@ ul li:last-child {}
 }
 
 .intro {
-  padding-top: 20px;
+	color: #f2f2f2;
+  padding: 20px 0;
   font-size: 10px;
   text-align: center;
   width: 80%;
-	background-color: #f2f2f2;
+	background-color: #0d0d0d;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
 }
 
@@ -205,11 +206,11 @@ ul li:last-child {}
 img {
   width: 30%;
   transition: 0.3s;
-	border-radius: 3px;
-	padding: 0 5px;
+	padding: 10px;
+	background-color: transparent;
 }
 
-img:hover {
+.img:hover {
   opacity: 0.7;
   cursor: pointer;
 }
@@ -224,9 +225,10 @@ section {
 	padding: 0;
 }
 
-data-featherlight-gallery {
+.data-featherlight-gallery {
 	padding: 0;
 	border: none;
+	background-color: transparent;
 }
 
 .inline { display: none }
@@ -236,6 +238,28 @@ data-featherlight-gallery {
     font-size: larger;
     color: black;
 }
+
+.featherlight-gallery {
+	background: transparent;
+}
+
+.featherlight-gallery .featherlight-content {
+	background: transparent;
+}
+
+.fixwidth {
+					background: black;
+				}
+				.fixwidth .featherlight-content {
+					width: 500px;
+					padding: 0px;
+					color: #black;
+					background: black;
+				}
+				.fixwidth .featherlight-close {
+					color: black;
+					background: black;
+				}
 
 /*contact contact contact*/
 /*contact contact contact*/

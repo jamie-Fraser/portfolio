@@ -38,6 +38,9 @@ $(document).ready(function() {
       this.$legend.text(this.$currentTarget.attr('alt'));
     }
   });
-  $.backstretch([ "img/Test/test1.jpg", "img/Test/test2.jpg", "img/Test/test3.jpg", "img/Test/test4.jpg" ],
-                { duration : 5000, fade: 2000 });
+	$.backstretch([ "img/Test/test1.jpg",
+		"img/Test/test2.jpg", 
+		"img/Test/test3.jpg", 
+		"img/Test/test4.jpg" ],
+		{ duration : 5000, fade: 2000 });
 })
