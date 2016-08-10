@@ -33,10 +33,10 @@ $(document).ready(function() {
 		this.$legend.text(this.$currentTarget.attr('alt'));
 		}
 	});
-		$(".foo").backstretch([
-		"/home/jamie/web/portfolio/Portfolio Images/Digital/Portraits/rick.png",
-		"/home/jamie/web/portfolio/Portfolio Images/Digital/Portraits/tayah.png",
-		"/home/jamie/web/portfolio/Portfolio Images/Digital/Portraits/tyrion.png"    
+		$.backstretch([
+		"img/Digital/Portraits/rick.png",
+		"img/Digital/Portraits/tayah.png",
+		"img/Digital/Portraits/tyrion.png"
 		], {duration: 4000, fade: 750});
 })
 
