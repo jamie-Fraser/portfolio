@@ -183,6 +183,18 @@ ul li:last-child {}
   font-size: 10px;
   text-align: center;
   width: 80%;
+	margin-top: 20px;
+	background-color: #0d0d0d;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+.intro2 {
+	color: #f2f2f2;
+  padding: 20px 0;
+  font-size: 10px;
+  text-align: center;
+  width: 80%;
+	margin-top: 20px;
 	background-color: #0d0d0d;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
 }
@@ -192,6 +204,13 @@ ul li:last-child {}
 }
 
 .p-intro {
+  font-size: 25px;
+  margin: auto;
+  width: 90%;
+  text-align: center;
+}
+
+.p-intro2 {
   font-size: 25px;
   margin: auto;
   width: 90%;
@@ -210,7 +229,7 @@ img {
 	background-color: transparent;
 }
 
-.img:hover {
+.jamie-img:hover {
   opacity: 0.7;
   cursor: pointer;
 }
@@ -225,42 +244,22 @@ section {
 	padding: 0;
 }
 
-.data-featherlight-gallery {
+.featherlight-previous span, .featherlight-next span {
+	color: black
+}
+.featherlight-previous:hover, .featherlight-next:hover {
+	background: rgba(0,0,0,0.2);
+}
+
+.featherlight .featherlight-close-icon {
+	background: rgba(0,0,0,0);
+	}
+	
+.featherlight .featherlight-content {
+	overflow: none;
+	background: transparent;
 	padding: 0;
-	border: none;
-	background-color: transparent;
 }
-
-.inline { display: none }
-.featherlight .legend {
-    position: absolute;
-    bottom: 0;
-    font-size: larger;
-    color: black;
-}
-
-.featherlight-gallery {
-	background: transparent;
-}
-
-.featherlight-gallery .featherlight-content {
-	background: transparent;
-}
-
-.fixwidth {
-					background: black;
-				}
-				.fixwidth .featherlight-content {
-					width: 500px;
-					padding: 0px;
-					color: #black;
-					background: black;
-				}
-				.fixwidth .featherlight-close {
-					color: black;
-					background: black;
-				}
-
 /*contact contact contact*/
 /*contact contact contact*/
 /*contact contact contact*/
