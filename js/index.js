@@ -42,5 +42,5 @@ $(document).ready(function() {
 		"img/Test/test2.jpg", 
 		"img/Test/test3.jpg", 
 		"img/Test/test4.jpg" ],
-		{ duration : 5000, fade: 2000 });
+		{ duration : 4000, fade: 1000 });
 })
