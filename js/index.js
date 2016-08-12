@@ -46,9 +46,6 @@ $(document).ready(function() {
 
 
 $("body").vegas({
-	delay: 7000,
-	transitin: fade,
-	transistionDuration: 2000,
 	slides: [
 			{ src: "/img/Test/test1.jpg" },
 			{ src: "/img/Test/test2.jpg" },
