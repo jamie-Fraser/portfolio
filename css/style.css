@@ -18,8 +18,17 @@ body {
   margin: 0 auto;
   font-family: 'Rubik', sans-serif;
 	min-height: 800px;
+	background: black;
 }
 
+
+h1 {
+		text-shadow:
+  -2px -2px 0 #fff,  
+   2px -2px 0 #fff,
+   -2px 2px 0 #fff,
+    2px 2px 0 #fff;
+}
 .fixed-header {
   padding: 0 10px 0 100px;
   position: fixed;
@@ -101,6 +110,25 @@ ul li:last-child {}
 	display:inline-block;
 }
 
+.fb {
+	height: 70px;
+	width: auto;
+	margin-top: -10px;
+}
+
+.insta {
+	height: 70px;
+	width: auto;
+	margin-top: -10px;
+}
+
+.deviant  {
+	height: 70px;
+	width: auto;
+	margin-top: -10px;
+	marging-right: 20px;
+}
+
 .copyright {
 	padding-top: 20px;
 }
@@ -111,6 +139,7 @@ ul li:last-child {}
 	float: right;
 	display: inline-block;
 	margin-top: -50px;
+	margin-left: 50px;
 }
 
 .button {
@@ -274,12 +303,12 @@ section {
 	margin-bottom: 20px;
 	border-radius: 10px;
 }
-h2 {
+h4 {
 	color: #666666;
 	font-size: 40px;
 }
 
-h3 {
+h5 {
 	color: #666666;
 	font-size: initial;
 	font-size: 20px;
