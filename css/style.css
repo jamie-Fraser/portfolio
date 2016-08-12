@@ -113,19 +113,19 @@ ul li:last-child {}
 .fb {
 	height: 70px;
 	width: auto;
-	margin-top: -10px;
+	margin-top: -6px;
 }
 
 .insta {
-	height: 70px;
+	height: 72px;
 	width: auto;
-	margin-top: -10px;
+	margin-top: -6px;
 }
 
 .deviant  {
-	height: 70px;
+	height: 74px;
 	width: auto;
-	margin-top: -10px;
+	margin-top: -6px;
 	marging-right: 20px;
 }
 
@@ -134,7 +134,7 @@ ul li:last-child {}
 }
 
 .social {
-  padding: 5px 0;
+  padding: opx 0;
 	width: 500px;
 	float: right;
 	display: inline-block;
@@ -142,6 +142,7 @@ ul li:last-child {}
 	margin-left: 50px;
 }
 
+	
 .button {
   background-color: #262626;
   border: none;
